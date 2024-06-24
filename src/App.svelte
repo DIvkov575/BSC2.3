@@ -1,7 +1,9 @@
 <script lang="ts">
+    import Countup from './lib/Countup.svelte'
 </script>
 
 <main>
+
 
     <div id="d1">
         <div id="d1-inner">
@@ -11,10 +13,13 @@
 
     <div id="d2">
         <div id="d2-inner">
-            <a><h2><a id="learn-box">Learn</a>to code!</h2></a>
-            <div style="height: 0.75rem"></div>
-            <h3>BSC is a non-profit organization, devoted towards creating a computer science education, accessible to everyone</h3>
-            <h3>BSC offers </h3>
+            <h3>BSC is a non-profit organization, devoted to creating a computer science education, accessible to everyone.</h3>
+            <h3>BSC offers seminars and classes, with proceedings going towards improving the BSC content and education charities in Boston</h3>
+
+            <div id="counters">
+                <h3><Countup value={18}/>+ Alumni</h3>
+                <h3>$<Countup value={2000}/>+ donated</h3>
+            </div>
 
         </div>
     </div>
@@ -32,8 +37,8 @@
 
     <div id="d4">
         <div id="d4-inner">
-            <a><h2>Learn Python Now</h2></a>
-            <div style="height: 0.2rem"></div>
+            <a><h2><a id="learn-box">Learn</a>to code!</h2></a>
+            <div style="height: 0.6rem"></div>
 
             <h3>Affordable Python classes for middle and high-schoolers. Proceedings go towards charity. Course completion time varies.</h3>
             <div style="height: 0.2rem"></div>
