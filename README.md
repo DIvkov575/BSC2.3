@@ -1,4 +1,4 @@
-#Belmont School of Codes Site (2)
+Belmont School of Codes Site (2)
 ---
 whats new:
 - Svelte
