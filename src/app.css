@@ -104,21 +104,15 @@ main {
             filter: blur(9px);
         }
 
-        h1 {
+        div {
             position: absolute;
-            z-index: 5;
-            top: 22rem;
-            left: 2rem;
-        }
-    }
-
-    #bsc-logo {
-        width: 125px;
-        position: absolute;
-        left: 50%;
-        top: 8rem;
-        img {
+            z-index: 2;
             width: 100%;
+            top: 12rem;
+            text-align: center;
+            h1 {
+                color: var(--white);
+            }
         }
     }
 

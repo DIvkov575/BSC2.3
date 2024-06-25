@@ -15,12 +15,12 @@
 
     <div id="d1">
         <img src="/bg2.png" alt="generic bg">
-        <h1>Belmont School of Code.</h1>
+        <div>
+            <h1>Belmont School of Code.</h1>
+        </div>
     </div>
 
     <div class="full-width-container"  id="d2">
-        <!--        <div class="box" style="padding: 0 0.75rem 0 0.75rem"><h2>About BSC</h2></div>-->
-        <!--        <h2>About BSC</h2>-->
         <h1 style="color: black">BSC</h1>
         <div style="height: 0.5rem"></div>
         <h3>BSC is a non-profit organization, devoted to creating a computer science education, accessible to everyone.</h3>
