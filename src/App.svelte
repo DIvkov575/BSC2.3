@@ -32,6 +32,12 @@
             <div class="box"><h3>$<Countup value={2500}/>+ donated</h3></div>
         </div>
 
+        <div id="npo_logos">
+            <div class="logo-wrapper"><img src="/gwc_logo.png" alt="gwc_logo"></div>
+            <div class="logo-wrapper"><img src="/boston_partners_logo.png" alt="boston_partners_logo"></div>
+            <div class="logo-wrapper"><img src="/bgc_logo.png" alt="black girls who code logo"></div>
+        </div>
+
     </div>
 
     <div class="full-width-container" id="d3">
