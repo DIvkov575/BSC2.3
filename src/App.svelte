@@ -43,11 +43,11 @@
         <div class="inner-full-width-container">
             <h1>BSC <a href="https://forms.gle/Uy89J5CXqN9rJrvi9" target="_blank" class="box" style="margin-left: 0.1rem">Boston</a> 2024</h1>
             <div style="height: 0.75rem"></div>
+
             <h3>2 FREE virtual seminars <u>July 13&14,  2024</u> from <u>6:00-7:30 PM</u></h3>
             <h3> Topics include: Web design with Google Sites and Wix, internet and website architecture, building websites in HTML/CSS, and publishing website with Vercel</h3>
             <h3>$200 / 20 classes</h3>
         </div>
-
 
         <a href="https://forms.gle/Uy89J5CXqN9rJrvi9" target="_blank">
             <div class="Qr-Wrapper">
@@ -59,7 +59,7 @@
 
     <div class="full-width-container" id="d4">
         <div class="inner-full-width-container">
-            <h1><a href="https://forms.gle/T7vFU1fbsx5aQjJs8" target="_blank" class="box">Learn</a>to code!</h1>
+            <h1><a href="https://forms.gle/T7vFU1fbsx5aQjJs8" target="_blank" class="box">Learn</a>to code</h1>
             <div style="height: 0.75rem"></div>
 
             <h3>Affordable Python classes for middle and high-schoolers. Proceedings go towards charity. Course completion time varies.</h3>
@@ -82,7 +82,7 @@
 
     <div id="d5" class="full-width-container">
         <div class="inner-full-width-container">
-            <h1><a href="https://account.venmo.com/u/Belmontcodes" target="_blank" class="box">Donate</a>!</h1>
+            <h1><a href="https://account.venmo.com/u/Belmontcodes" target="_blank" class="box">Donate</a></h1>
             <div style="height: 0.75rem"></div>
 
             <h3>Your funds will go towards:</h3>
