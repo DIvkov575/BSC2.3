@@ -89,8 +89,6 @@
             <h3>Your funds will go towards:</h3>
             <h3>Improving our content, making free seminars possible, site & service fees, and various charities in the Boston Area</h3>
 
-            <div style="height: 1.4rem"></div>
-            <h3>Anything Helps</h3>
         </div>
 
         <a href="https://account.venmo.com/u/Belmontcodes" target="_blank" >
