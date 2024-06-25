@@ -25,7 +25,7 @@ h1 {
     position: relative;
 }
 h2 {
-    font-size: 2.75rem;
+    font-size: 2.25rem;
 }
 h3 {
     font-size: 1.75rem;
@@ -58,12 +58,32 @@ a {
     margin: 0 0.2rem 0 0;
 }
 
+.Qr-Wrapper {
+    width: 250px;
+    background-color: white;
+    margin: 0.5rem;
+    img {
+        width: 100%;
+    }
+}
+
+.full-width-container {
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+
+    .inner-full-width-container {
+        max-width: 800px;
+    }
+}
 
 main {
     background: linear-gradient(#ffffff, #eff5f5);
 
     #d1 {
-        /*background-image: url("/space.avif");*/
         background-color: var(--grey);
         padding: 1rem;
         height: 25rem;
@@ -80,9 +100,8 @@ main {
         }
     }
 
-    #d2-inner {
+    #d2 {
         margin: 5rem auto 5rem auto;
-        padding: 2rem;
 
         height: calc(0rem - 10%);
         max-width: 1000px;
@@ -101,30 +120,41 @@ main {
 
 }
 
-    #d3-inner {
+    #d3{
         margin: 5rem auto 5rem auto;
         padding: 2rem;
 
         height: calc(12rem - 10%);
-        max-width: 1200px;
+
     }
 
-    #d4-inner {
+    #d4{
         margin: 5rem auto 5rem auto;
-        padding: 2rem;
 
         height: calc(16rem - 10%);
-        max-width: 1200px;
+
 
         ul {
             margin-left: 1.5rem
         }
     }
-    #d6 {
+
+    #d5{
+        margin: 5rem auto 5rem auto;
+
+        height: calc(16rem - 10%);
+        max-width: 1200px;
+
+
+        ul {
+            margin-left: 1.5rem
+        }
+    }
+    #footer{
         margin-top: 1rem;
         background-color: var(--grey);
 
-        #d6-inner {
+        #footer-inner {
             margin: 0 auto 0 auto;
             padding: 2rem;
 
@@ -145,4 +175,11 @@ main {
         }
     }
 
+}
+
+
+@media (max-width: 1162px) {
+    * {
+        text-align: center;
+    }
 }
