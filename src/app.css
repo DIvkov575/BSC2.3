@@ -82,7 +82,7 @@ a {
     justify-content: center;
     align-items: center;
     padding: 2rem;
-    margin: 5rem auto 5rem auto;
+    margin: 4rem auto 4rem auto;
 
     .inner-full-width-container {
         max-width: 800px;
@@ -173,8 +173,33 @@ main {
 }
 
 
-@media (max-width: 1162px) {
-    * {
+@media (max-width: 1130px) {
+    li h3{
+        text-align: left !important;
+    }
+    ul {
+        padding-left: 1rem;
+    }
+
+    h3, h2, h1 {
         text-align: center;
+    }
+    #d2 {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .full-width-container {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    h1 {
+        font-size: 4rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    h3 {
+        font-size: 1.5rem;
+
     }
 }
