@@ -3,8 +3,9 @@
 
     let visible = true;
     const gmailClick = () => {
-        visible = false;
-
+        setTimeout(() => {
+            visible = false;
+        }, 15000)
     }
 </script>
 
