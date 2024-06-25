@@ -32,7 +32,7 @@
 
     <div class="full-width-container" id="d3">
         <div class="inner-full-width-container">
-            <a><h2>BSC <a class="box" style="margin-left: 0.1rem">Boston</a> 2024</h2></a>
+            <a><h2>BSC <a href="https://forms.gle/Uy89J5CXqN9rJrvi9" target="_blank" class="box" style="margin-left: 0.1rem">Boston</a> 2024</h2></a>
             <div style="height: 0.75rem"></div>
             <h3>2 FREE virtual seminars <u>July 13&14,  2024</u> from <u>6:00-7:30 PM</u></h3>
             <h3> Topics include: Web design with Google Sites and Wix, internet and website architecture, building websites in HTML/CSS, and publishing website with Vercel</h3>
@@ -40,12 +40,17 @@
         </div>
 
 
-        <a href=""><div class="Qr-Wrapper"><img src="/BSCBOSTONQR.png" alt="BSC-Boston-Qr-code"></div></a>
+        <a href="https://forms.gle/Uy89J5CXqN9rJrvi9" target="_blank">
+            <div class="Qr-Wrapper">
+                <img src="/BSCBOSTONQR.png" alt="BSC-Boston-Qr-code">
+                <h3>Click Me</h3>
+            </div>
+        </a>
     </div>
 
     <div class="full-width-container" id="d4">
         <div class="inner-full-width-container">
-            <a><h2><a class="box">Learn</a>to code!</h2></a>
+            <a><h2><a href="https://forms.gle/T7vFU1fbsx5aQjJs8" target="_blank" class="box">Learn</a>to code!</h2></a>
             <div style="height: 0.75rem"></div>
 
             <h3>Affordable Python classes for middle and high-schoolers. Proceedings go towards charity. Course completion time varies.</h3>
@@ -58,12 +63,17 @@
             </ul>
         </div>
 
-        <a href=""><div class="Qr-Wrapper"><img src="/BSCPYTHONQR.png" alt="BSC-Boston-Qr-code"></div></a>
+        <a href="https://forms.gle/T7vFU1fbsx5aQjJs8" target="_blank">
+            <div class="Qr-Wrapper">
+                <img src="/BSCPYTHONQR.png" alt="BSC-Boston-Qr-code">
+                <h3>Click Me</h3>
+            </div>
+        </a>
     </div>
 
     <div id="d5" class="full-width-container">
         <div class="inner-full-width-container">
-            <a><h2><a class="box">Donate</a>!</h2></a>
+            <a><h2><a href="https://account.venmo.com/u/Belmontcodes" target="_blank" class="box">Donate</a>!</h2></a>
             <div style="height: 0.75rem"></div>
 
             <h3>Your funds will go towards:</h3>
@@ -73,7 +83,12 @@
             <h3>Anything Helps</h3>
         </div>
 
-        <a href=""><div class="Qr-Wrapper"><img src="/VenmoQr.png" alt="BSC-Boston-Qr-code"></div></a>
+        <a href="https://account.venmo.com/u/Belmontcodes" target="_blank" >
+            <div class="Qr-Wrapper">
+                <img src="/VenmoQr.png" alt="BSC-Boston-Qr-code">
+                <h3 style="top: -0.75rem">Click Me</h3>
+            </div>
+        </a>
     </div>
 
     <div id="footer">
