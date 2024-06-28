@@ -97,6 +97,7 @@ a {
 
 main {
     background: linear-gradient(#ffffff, #eefafa);
+    height: 100%;
 
     #d1 {
         padding: 1rem;
@@ -110,7 +111,6 @@ main {
         }
 
         div {
-            /*top: 8rem;*/
             position: absolute;
             z-index: 2;
             width: 100%;
