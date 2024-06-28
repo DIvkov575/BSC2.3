@@ -22,8 +22,6 @@
 </script>
 
 <main>
-    <button style="width: 500px" on:click={() => {show_d2 = !show_d2; show_d3 = !show_d3; show_d4 = !show_d4; show_d5 = !show_d5}}></button>
-
     <div id="d1">
         <img src="/bg2.png" alt="generic bg">
         <div>
