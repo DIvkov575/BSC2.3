@@ -103,7 +103,7 @@ main {
         padding: 1rem;
         height: 25rem;
         overflow: hidden;
-        margin-bottom: 6rem;
+        margin-bottom: 7rem;
 
         img {
             margin: auto;
@@ -166,7 +166,7 @@ main {
         }
     }
     #footer{
-        margin-top: 5rem;
+        margin-top: 7rem;
         background-color: var(--grey);
 
         #footer-inner {
