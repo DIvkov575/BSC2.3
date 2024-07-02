@@ -140,7 +140,7 @@
             {#if visible}
                 <button class="image-wrapper" on:click={gmailClick} ><img src="/GoogleIcon.svg" alt="Google Icon"></button>
             {:else}
-                <div style="padding-top: 12px"><h3>dmi194@g.harvard.edu</h3></div>
+                <div style="padding-top: 12px"><h3>dmitriyivkov@belmontcodes.com</h3></div>
             {/if}
 
             <a href="https://www.instagram.com/belmontschoolofcode/"><div class="image-wrapper"><img src="/InstagramIcon.svg" alt="instagram-icon"></div></a>
