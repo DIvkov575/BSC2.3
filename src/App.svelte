@@ -15,6 +15,11 @@
     let show_d3 = false;
     let show_d4 = false;
     let show_d5 = false;
+
+    const d2SetFalse = () => {if (window.innerWidth > 500) show_d2 = false};
+    const d3SetFalse = () => {if (window.innerWidth > 500) show_d3 = false};
+    const d4SetFalse = () => {if (window.innerWidth > 500) show_d4 = false};
+    const d5SetFalse = () => {if (window.innerWidth > 500) show_d5 = false};
 </script>
 
 <main>
@@ -28,7 +33,7 @@
     <div
         class="fw-wrapper"
         use:inview={options}
-        on:inview_leave ={(_) => show_d2 = false}
+        on:inview_leave ={(_) => d2SetFalse()}
         on:inview_enter ={(_) => show_d2 = true}>
 
         {#if show_d2}
@@ -56,7 +61,7 @@
     <div
         class="fw-wrapper"
         use:inview={options}
-        on:inview_leave ={(_) => show_d3 = false}
+        on:inview_leave ={(_) => d3SetFalse()}
         on:inview_enter ={(_) => show_d3 = true}>
 
         {#if show_d3}
@@ -82,7 +87,7 @@
     <div
         class="fw-wrapper"
         use:inview={options}
-        on:inview_leave ={(_) => show_d4 = false}
+        on:inview_leave ={(_) => d4SetFalse()}
         on:inview_enter ={(_) => show_d4 = true}>
         {#if show_d4}
             <div transition:fly={{x:-200, duration: 800}} class="fw-container" id="d4">
@@ -110,7 +115,7 @@
     <div
         class="fw-wrapper"
         use:inview={options}
-        on:inview_leave ={(_) => show_d5 = false}
+        on:inview_leave ={(_) => d5SetFalse()}
         on:inview_enter ={(_) => show_d5 = true}>
         {#if show_d5}
             <div transition:fly={{x:-200, duration: 800}} id="d5" class="fw-container">
