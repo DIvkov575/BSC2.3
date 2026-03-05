@@ -44,8 +44,8 @@
                 <h3>BSC offers seminars and classes, with proceedings going towards improving the BSC content and education charities in Boston</h3>
 
                 <div id="counters">
-                    <div class="box"><h3><Countup value={15}/>+ Alumni</h3></div>
-                    <div class="box"><h3>$<Countup value={2500}/>+ donated</h3></div>
+                    <div class="box"><h3><Countup value={25}/>+ Alumni</h3></div>
+                    <div class="box"><h3>$<Countup value={5000}/>+ donated</h3></div>
                 </div>
 
                 <div id="npo_logos">
